@@ -6,6 +6,11 @@ import 'bootstrap-icons/font/bootstrap-icons.css'; // For icons, if needed
 
 // import './App.css'
 import Navbar from './Navbar'
+// import MyDatePicker from './MyDatePicker';
+// import CustomDatePicker from './CustomDatePicker';
+import Signup from './Signup';
+import SignupSecond from './Signupsecond';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +18,11 @@ function App() {
   return (
     <>
       <Navbar/>
+      {/* <MyDatePicker/> */}
+      {/* <CustomDatePicker/> */}
+      <Signup/>
+
+      <SignupSecond/>
     </>
   )
 }
